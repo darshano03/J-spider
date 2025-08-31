@@ -1,0 +1,199 @@
+<!-- (alt + z ) is used to alter the dislay layout -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- heading tags -->
+    <h1>heading 1</h1>
+    <h2>heading 2</h2>
+    <h3>heading 3</h3>
+    <h4>heading 4</h4>
+    <h5>heading 5</h5>
+    <h6>heading 6</h6>
+    <h7>heading 7</h7>
+    <h8>heading 8</h8>
+<br>
+<!-- formating tag -->
+    <b> hi i am bold tag</b>
+    <strong> it is a strong tag</strong>
+    <br>
+    <i>hi i am italic tag</i>
+    <br>
+    <u>it is a underline tag</u>     <!--  high preference for <strong> , <ins> , <em> -->
+        <br>
+    <b>a<sup>2</sup>+b<sub>3</sub></b>    <br>
+    <s>2345</s>
+    <br>
+    <mark>Darshan</mark>
+
+    <!-- other tags -->
+     <p> it is used to display paragraph  , 
+         Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Sint unde temporibus culpa consectetur nam, in dolorem, provident cum accusantium 
+          officiis, minima delectus? Assumenda, doloribus. Sunt alias laborum laboriosam dolore
+           exercitationem.</p>
+     <pre>it is will print the contain in as it is (like next line) , Lorem ipsum 
+dolor sit amet consectetur adipisicing elit. Nemo aliquam ipsa
+corrupti ratione nam cupiditate, exercitationem ea nesciunt sequi, iure 
+pariatur officiis quos sunt temporibus eos, voluptas ab accusamus et.</pre>
+
+    <div> it is used to display a block</div>     
+
+<!-- unpaired tag  -->
+ <br>   <!--it is used to brake the line -->
+ <hr>  <!--for horizontal line -->
+ <img src="C:rs\OneDrive\Pictur\Users\odaes\133976462388349998.jpg" width="100px" height = "100px">
+<h1 style="border:2px solid ; height: 100px;" > hello all</h1>
+<h2 style="border:2px solid ; height:100px;">dfhfsjdfs<h2>
+    <b style="border:2px solid ></b>
+
+<!-- -->
+     <a href="https://instagram.com" target = >
+             <img src="C:rs\OneDrive\Pictur\Users\odaes\133976462388349998.jpg" alt="facebook" height="100" width="100">
+            </a> <!--target ="_main" it is and "_blank"  opens in new tab-->
+            <br>
+            <audio src = "" controls></audio> <!--it is used to play audio here we can use attribute like  muted , loop , controls -->
+            <video src =" " controls width="100px" heigth="100px"> </video> <!--it is used to play video here we can use attribute like  muted , loop , controls -->
+            <iframe src=" " ></iframe>    
+                 <!-- for map also we can embed the link in iframe -->
+    <!-- for gen a QR code we should go to api server and get the link and paste the link and in the place of example  replace by the img link -->
+     
+    <table border="1px"  cellpadding="10" cellspacing="5">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+<!-- it is used to cerate the table short code -----  table>tr*4>td*4{$4}     -->
+    <table border="2px"  cellpadding="14" cellspacing="5">
+        <tr>
+            <td colspan="3">1</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            
+            <td rowspan="3">5</td>
+            <td>6</td>
+            <td>7</td>
+            <td rowspan="3">8</td>
+        </tr>
+        <tr>
+            <td colspan="2">8</td>
+            
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>11</td>
+        </tr>
+
+        <br>
+
+    </table>
+    <!-- rowspan is used to merge the colum -->
+    <!-- colspan is used to merge the row -->
+     <table border="5px"  cellspacing="5"height="100px" width="900px" 
+     style="text-align: center;" >
+        <tr>
+            <td>1</td>
+            <td colspan="2">2</td>
+            <td rowspan="2">3</td>
+            <td colspan="2" rowspan="2">4</td>
+        </tr>
+        <tr>
+            <td colspan="3">5</td>
+           
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td colspan="2">9</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td colspan="2">11</td>
+            <td colspan="3">12</td>
+            <td rowspan="7">13</td>
+        </tr>
+        <tr>
+            <td rowspan="3">14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td colspan="4">19</td>
+        </tr>
+        <tr>
+            <td colspan="2">20</td>
+            <td colspan="2">21</td>
+        </tr>
+        <tr>
+            <td colspan="5">22</td>
+        </tr>
+        <tr>
+            <td rowspan="2">23</td>
+            <td colspan="2">24</td>
+            <td>25</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>27</td>
+            <td colspan="2">28</td>
+            <td>29</td>
+        </tr>
+     </table>
+
+
+     <br>
+
+     <table border="2" style="text-transform: capitalize ; text-align: center;" width="800px">
+        <tr>
+            <td colspan="2" rowspan="3">Day</td>
+            <td colspan="5">seminar</td>
+        </tr>
+        <tr>
+            <td colspan="2">Schedule</td>
+            <td colspan="3" rowspan="2">topic</td>
+        </tr>
+        <tr>
+            <td>begin</td>
+            <td>end</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+     </table>
+</body>
+</html>
+
+ 

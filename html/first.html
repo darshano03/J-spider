@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* here the selector are used to select the sector like h1 , p , h2 etc  */
+    p,h4{
+        background-color:green;
+        color:blue;
+        text-align: center;
+    }
+    </style>
+
 </head>
 <body>
     <!-- heading tags -->
@@ -176,24 +186,81 @@ pariatur officiis quos sunt temporibus eos, voluptas ab accusamus et.</pre>
             <td>begin</td>
             <td>end</td>
         </tr>
+     </table>
+     <form>
+        <fieldset>
+            <legend>Application form</legend>
+            <lable for="un">username:</lable>
+            <input type="text" placeholder="Enter the username"> 
+            <lable for="DOB">DOB:</lable>
+            <input type="datetime-local">
+            <lable></lable>
+            <select>
+                <option value = "">select state</option>
+                <option value="karnataka">karnataka</option>
+                <option value="tamil nadu">tamil nadu</option>
+                <option value="kerla">kerla</option>
+                <lable></lable>
+                <input type="img" src="www.googgggggggle">
+                <input type="range">
+                <button></button>
+                <input type="submit">
+            </select>
+
+            </select>
+
+        </fieldset>
+
+     </form>
+     <table>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><lable>Username:</lable></td>
+            <td><input type="text" placeholder="enetr the username"></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><lable>Password:</lable></td>
+            <td><input type="text" placeholder="enetr your Password"></td>
+        </tr>
+        <tr>
+            <td><lable>Email:</lable></td>
+            <td><input type="email" placeholder="enetr your email"></td>
+        </tr>
+        <tr>
+            <td><lable>Phone no:</lable></td>
+            <td><input type="number" placeholder="enetr your phone no"></td>
+        </tr>
+        <tr>
+            <td><lable>Age:</lable></td>
+            <td><input type="number" placeholder="enter your Age"></td>
         </tr>
      </table>
-</body>
-</html>
 
- 
+     <!-- sematic tags : a tag which give the purpose to it . , it was interduced in html 5 . before that we were using div for every thing now using footer , header , section , article -->
+
+     <!-- inline css  -->
+<h1 style="color: aquamarine; background-color: black;">hi  i am Darshan </h1>
+<p style="color:blue; background-color: brown;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius veniam eaque labore sunt non doloremque nobis nesciunt odio voluptates. Saepe error nobis ea temporibus doloremque ratione quae quas aliquid!</p>
+
+<!-- internal css -->
+ <h4> hi this is internal css</h4>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt blanditiis mollitia amet. Atque ratione, ab voluptatum, veniam iusto modi voluptates minima aliquid quas, accusantium itaque eos delectus consequatur non dolores.</p>
+
+<!-- inline css vs internal css . inline will be given highest because it is nearest for html element -->
+ <div id="d1">
+    <h4> hi this is using external css</h4>
+ <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt blanditiis mollitia amet. Atque ratione, ab voluptatum, veniam iusto modi voluptates minima aliquid quas, accusantium itaque eos delectus consequatur non dolores.</p1s>
+
+ </div>
+ <!-- external css vs internal css . based on the order of occurrence -->
+
+ <!-- selectors : it is used to target the html element and apply the css
+  we have 5 types of selectors
+  1 simple selector
+  2 combinator selector
+  3 pseudo class selector 
+  4 pseudo element selector 
+  5 attribute selector
+   -->
+
+    </body>
+</html>

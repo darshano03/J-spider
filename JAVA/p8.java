@@ -6,7 +6,7 @@ class p8
        {
         System.out.println(1);
        }
-       else if{
+       else if(false){
         System.out.println(2);
        }
        else

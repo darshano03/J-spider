@@ -1,0 +1,10 @@
+/* css ( cascading style sheet is developed by hakon wium lie in 1996)
+ways to add css 
+1 inline css
+2 internal css
+3 external css
+ */
+ p1{
+    color: blueviolet;
+    background-color: bisque;
+ }
